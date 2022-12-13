@@ -12,6 +12,6 @@ data "aws_caller_identity" "current" {}
 ##########################
 
 variable "stack_prefix" {
-    description = "Identifier to prepend to resources"
+    description = "Identifier to prepend to resources to generate unique names"
     type        = string
 }
