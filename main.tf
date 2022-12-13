@@ -14,5 +14,4 @@ data "aws_caller_identity" "current" {}
 variable "stack_prefix" {
     description = "Identifier to prepend to resources"
     type        = string
-    default     = "reverse-proxy"
 }
